@@ -4,7 +4,7 @@ def countdown
 
   count = 10.seconds
 
-  while count < 10.seconds
+  while count < 10.seconds do
     break if count == 0.seconds
     puts "#{count} SECOND(S)!"
     count -= 1.second

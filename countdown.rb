@@ -18,7 +18,7 @@ def countdown_with_sleep(y)
   counter = 5
 
   while counter <= 5
-    sleep(1)
+    sleep(1) # sleep for 1 second, not y seconds
     counter -= 1
     if counter <= 0
       break

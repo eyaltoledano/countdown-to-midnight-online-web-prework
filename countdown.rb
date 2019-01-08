@@ -2,7 +2,7 @@
 
 def countdown(seconds)
 
-  counter = 10
+  counter = 10.seconds
 
   while counter < 10
     break if counter == 0

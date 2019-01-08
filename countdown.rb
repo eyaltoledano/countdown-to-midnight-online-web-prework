@@ -1,6 +1,6 @@
 #write your code here
 
-def countdown(seconds)
+def countdown(time)
 
   counter = 10.seconds
 

@@ -8,8 +8,8 @@ def countdown(x)
     puts "#{counter} SECOND(S)!"
     counter -= 1
     if counter <= 0
-      puts "HAPPY NEW YEAR!"
       break
+      puts "HAPPY NEW YEAR!"  
     end
   end
 end

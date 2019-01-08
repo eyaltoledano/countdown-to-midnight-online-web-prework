@@ -7,7 +7,6 @@ def countdown(x)
   while counter <= 10
     puts "#{counter} SECOND(S)!"
     counter -= 1
-    break if counter <= 0
+    break if counter <= 0 && puts   puts "HAPPY NEW YEAR!"
   end
-  puts "HAPPY NEW YEAR!"
 end

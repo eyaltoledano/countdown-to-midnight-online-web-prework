@@ -2,7 +2,7 @@
 
 def countdown(x)
 
-  counter = x
+  counter = x + 1
 
   while x < 10
     counter -= 1
